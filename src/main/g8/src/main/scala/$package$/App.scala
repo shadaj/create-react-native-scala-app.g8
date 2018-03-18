@@ -17,21 +17,31 @@ import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
 
   def render() = {
     View(
-      style = literal(padding = 50)
+      style = literal(
+        padding = 50,
+        flex = 1,
+        flexDirection = "column",
+        justifyContent = "center",
+        alignItems = "center"
+      )
     )(
+      Image(
+        source = ImageURISource(
+          uri = "https://raw.githubusercontent.com/shadaj/slinky/master/logo.png"
+        ),
+        style = literal(
+          width = 250,
+          height = 250
+        ),
+        resizeMode = "cover"
+      ),
       Text(
         style = literal(fontSize = 30, color = "red")
-      )("Hello, Slinky!"),
+      )("Hello, Slinky Native!"),
       Text("Count: " + state),
-      Button(title = "Press me", onPress = () => {
+      Button(title = "Tap Me!", onPress = () => {
         setState(_ + 1)
-      }),
-      Image(source = ImageURISource(
-        uri = "https://facebook.github.io/react-native/docs/assets/favicon.png"
-      ), style = literal(
-        width = 50,
-        height = 50
-      ))
+      })
     )
   }
 }

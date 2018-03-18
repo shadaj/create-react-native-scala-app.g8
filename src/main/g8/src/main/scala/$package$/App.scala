@@ -22,8 +22,7 @@ import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
       Text(
         style = literal(fontSize = 30, color = "red")
       )("Hello, Slinky!"),
-
-      Text()("Count: " + state),
+      Text("Count: " + state),
       Button(title = "Press me", onPress = () => {
         setState(_ + 1)
       }),

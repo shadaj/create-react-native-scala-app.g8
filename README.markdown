@@ -29,7 +29,7 @@ Just create a project, and you’re good to go.
 
 ## Getting Started
 ### Installation
-To use create-react-scala-native-app, you'll need SBT, which is the primary build tool, and NPM, which is used to pull in JavaScript dependencies and run the React Native CLI.
+To use create-react-native-scala-app, you'll need SBT, which is the primary build tool, and NPM, which is used to pull in JavaScript dependencies and run the React Native CLI.
 
 **You’ll need to have Node >= 6 on your machine.** You can use [nvm](https://github.com/creationix/nvm#installation) to easily switch Node versions between different projects.
 

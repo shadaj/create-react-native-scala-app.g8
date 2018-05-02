@@ -14,10 +14,10 @@ sbt "~fastOptJS"
 
 # in another tab
 npm install
-npm run-ios # or run-android
+npm run ios # or android
 ```
 
-As soon as you start `run-ios` or `run-android`, React Native will launch the appropriate emulator and load your app into it. You should see your app in action as soon as the bundler completes packaging your code.
+As soon as you run `ios` or `android`, React Native will launch the appropriate emulator and load your app into it. You should see your app in action as soon as the bundler completes packaging your code.
 
 When you're ready to package a production app, create a minified bundle with `sbt fullOptJS`, modify `index.js` to use the `-fullopt.js` file and follow the [React Native Instructions](https://facebook.github.io/react-native/docs/running-on-device.html#building-your-app-for-production).
 
@@ -70,7 +70,7 @@ Once the installation is done, you can run some commands inside the project fold
 ### `sbt "~fastOptJS"`
 Runs the app in development mode with hot-reloading enabled.
 
-Run `npm run-ios` to see your app
+Run `npm run ios` to see your app
 
 The app will automatically reload if you make changes to the code (and hot-reloading is [enabled](https://facebook.github.io/react-native/docs/debugging.html)). You will see compilation errors in your console.
 

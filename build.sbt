@@ -1,5 +1,5 @@
 organization := "me.shadaj"
-name := "create-react-scala-app.g8"
+name := "create-react-native-scala-app.g8"
 
 test in Test := {
   val _ = (g8Test in Test).toTask("").value

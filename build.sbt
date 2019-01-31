@@ -1,4 +1,7 @@
+enablePlugins(ScriptedPlugin)
+
 organization := "me.shadaj"
+
 name := "create-react-native-scala-app.g8"
 
 test in Test := {

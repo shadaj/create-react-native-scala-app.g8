@@ -8,7 +8,7 @@ import slinky.native.AppRegistry
 import slinky.hot
 
 object Main {
-  @JSExportTopLevel("entrypoint.main")
+  @JSExportTopLevel("main")
   def main(): Unit = {
     if (LinkingInfo.developmentMode) {
       hot.initialize()

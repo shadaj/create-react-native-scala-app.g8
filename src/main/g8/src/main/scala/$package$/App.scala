@@ -18,6 +18,7 @@ import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
   def render() = {
     View(
       style = literal(
+        backgroundColor = "white",
         padding = 50,
         flex = 1,
         flexDirection = "column",

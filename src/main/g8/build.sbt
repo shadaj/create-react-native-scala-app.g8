@@ -4,8 +4,8 @@ name := "$name$"
 
 scalaVersion := "2.12.8"
 
-libraryDependencies += "me.shadaj" %%% "slinky-native" % "0.5.2"
-libraryDependencies += "me.shadaj" %%% "slinky-hot" % "0.5.2"
+libraryDependencies += "me.shadaj" %%% "slinky-native" % "0.6.0"
+libraryDependencies += "me.shadaj" %%% "slinky-hot" % "0.6.0"
 
 scalacOptions += "-P:scalajs:sjsDefinedByDefault"
 

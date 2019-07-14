@@ -1,4 +1,4 @@
-var transformer = require('metro/src/transformer')
+var transformer = require('metro-react-native-babel-transformer')
 
 module.exports.transform = function ({ src, filename, options }) {
   options = options || {};

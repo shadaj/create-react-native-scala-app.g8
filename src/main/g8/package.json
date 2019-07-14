@@ -8,8 +8,8 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "react": "16.6.3",
-    "react-native": "0.58.3",
+    "react": "16.8.3",
+    "react-native": "0.59.2",
     "react-proxy": "1.1.8"
   }
 }

@@ -1,4 +1,4 @@
-package $package$.$name$;
+package $package$;
 
 import android.app.Application;
 

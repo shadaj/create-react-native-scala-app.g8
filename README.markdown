@@ -17,7 +17,7 @@ npm install
 npm run ios # or android
 ```
 
-As soon as you run `ios` or `android`, React Native will launch the appropriate emulator and load your app into it. You should see your app in action as soon as the bundler completes packaging your code.
+As soon as you run `ios` or `android`, React Native will launch the appropriate emulator and load your app into it. You should see your app in action as soon as the bundler completes packaging your code. To set the emulator, see React Native CLI Quickstart in [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started).
 
 When you're ready to package a production app, create a minified bundle with `sbt fullOptJS`, modify `index.js` to use the `-fullopt.js` file and follow the [React Native Instructions](https://facebook.github.io/react-native/docs/running-on-device.html#building-your-app-for-production).
 

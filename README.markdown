@@ -1,3 +1,5 @@
+**This project has been deprecated in favor of the [Expo Scala Template](https://github.com/shadaj/expo-template-scala), which allows for ejecting to a React Native setup nearly identical to the one in this template**
+
 # Create React Native Scala App
 Create [React Native](https://facebook.github.io/react-native/) apps in [Scala](https://scala-lang.org/) (via [Slinky](https://github.com/shadaj/slinky)) with no build configuration
 
